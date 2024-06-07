@@ -22,6 +22,12 @@ body {
   background-size: cover;
 }
 
+.header__title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
