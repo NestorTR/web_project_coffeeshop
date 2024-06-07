@@ -57,10 +57,10 @@
               <a href="#recipes" class="nav__link">Recetas</a>
             </li>
             <li>
-              <a href="#reserva" class="nav__link">Reservar una mesa</a>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="#contactos" class="nav__link">Contactos</a>
+              <a href="#contacts" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -70,10 +70,10 @@
               <span>Café de especialidad</span>
               <span class="span-accent">en Triple Peaks</span>
             </h1>
-            <div class="header__description">
+            <p class="header__description">
               ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
               café para darte energía y motivar tu creatividad.
-            </div>
+            </p>
             <img
               src="./images/inside_coffee_shop.png"
               alt="Imagen de cafeteria"
@@ -95,8 +95,8 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
-          <h2 id="recipes" class="recipes__title">Recetas</h2>
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Recetas</h2>
           <div class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
@@ -110,6 +110,7 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
+              class="recipes__iframe"
             ></iframe>
             <iframe
               width="480"
@@ -119,13 +120,13 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
+              class="recipes__iframe"
             ></iframe>
           </div>
           <div class="recipes__video-item">
             <p>Receta en Aeropress ~5 min</p>
             <p>Receta en cafetera francesa ~15 min</p>
           </div>
-          <div class="recipes__iframe"></div>
           <div class="recipes__video-caption"></div>
         </section>
         <section class="reservation">Reservación</section>
