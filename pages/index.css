@@ -22,12 +22,6 @@ body {
   background-size: cover;
 }
 
-.header__title-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -85,6 +79,7 @@ body {
 .header__description {
   max-width: 683px;
   padding-left: 80px;
+  margin-bottom: 212px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
