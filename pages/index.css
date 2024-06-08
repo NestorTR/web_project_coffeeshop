@@ -79,7 +79,6 @@ body {
 .header__description {
   max-width: 683px;
   padding-left: 80px;
-  margin-bottom: 212px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -167,4 +166,5 @@ body {
 }
 
 .recipes__video-caption {
+  margin-bottom: 215px;
 }
