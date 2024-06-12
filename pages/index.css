@@ -207,7 +207,7 @@ body {
   justify-content: center;
   padding-top: 100px;
   margin: 0px auto 80px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -228,7 +228,7 @@ body {
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -236,7 +236,7 @@ body {
 }
 
 .form__input {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -251,7 +251,7 @@ body {
   max-width: 385px;
   width: 100%;
   height: 60px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
